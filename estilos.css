@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+
+body img {
+    margin-top: 18VW;
+    width: 100%;
+}
+
+H1 {
+    color: gray;
+    font-family: LATO;
+    font-size: 2 rem;
+}
+
+.bodyPage {
+    width: 70vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
