@@ -1,7 +1,8 @@
-import { ProductManager } from "./ProductManager.js";
+import { ProductManager } from "./ProductManager.mjs";
 
 //Product Manager
-const productManagerInstance = new ProductManager();
+const path = './Productos.json';
+const productManagerInstance = new ProductManager(path);
 
 // Array vacio para los products
 console.log("productos:", productManagerInstance.getProducts());
